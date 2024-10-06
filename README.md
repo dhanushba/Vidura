@@ -24,7 +24,7 @@ pip install pyttsx3 speechrecognition
 Clone the Repository
 bash
 Copy code
-git clone https://github.com/yourusername/Vidura.git
+git clone [https://github.com/yourusername/Vidura.git](https://github.com/dhanushba/Vidura.git)
 cd Vidura
 Set Up Your API Key
 Sign up for the Gemini API and get your API key.
