@@ -24,7 +24,7 @@ pip install pyttsx3 speechrecognition
 Clone the Repository
 bash
 Copy code
-git clone [https://github.com/yourusername/Vidura.git](https://github.com/dhanushba/Vidura.git)
+git clone https://github.com/dhanushba/Vidura.git
 cd Vidura
 Set Up Your API Key
 Sign up for the Gemini API and get your API key.
@@ -88,16 +88,6 @@ Copy code
 Feel free to modify this template as per your project's requirements! An engaging README will significantly help others understand, use, and contribute to your project.
 
 
-
-
-
-You said:
-dont include personal detols
-ChatGPT said:
-ChatGPT
-Memory updated
-Here's a sample README file for your voice assistant project, tailored for GitHub. You can customize it further if needed:
-
 markdown
 Copy code
 # Voice Assistant
@@ -125,7 +115,7 @@ A voice-activated assistant that leverages the Gemini API for real-time response
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/voice-assistant.git
+   git clone https://github.com/dhanushba/Vidura.git
 Navigate to the project directory:
 
 bash
