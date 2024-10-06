@@ -1,4 +1,4 @@
-# Voice Assistant
+# Vidhura - The Vision
 
 ## 🚀 Overview
 Elevate your interaction experience with this intelligent voice assistant, capable of understanding natural language and responding with accurate information.
