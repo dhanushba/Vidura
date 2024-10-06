@@ -3,6 +3,7 @@ import speech_recognition as sr
 from datetime import datetime
 from api import GeminiAPI
 from web_actions import open_website
+import re
 
 class VoiceAssistant:
     def __init__(self, gemini_api_key):
@@ -47,6 +48,9 @@ class VoiceAssistant:
                 print(f"Error occurred: {e}")
                 return "None"
 
+    def clean_text(self, text):
+        return re.sub(r'[^\w\s]', '', text)  # Remove punctuation and special characters
+
     def get_current_time(self):
         now = datetime.now()
         current_time = now.strftime("%H:%M")
@@ -58,6 +62,7 @@ class VoiceAssistant:
         return f"Today's date is {current_date}."
 
     def handle_conversation(self, text, lang='en'):
+        text = self.clean_text(text)  # Clean the input text
         try:
             if "what is the time" in text:
                 response = self.get_current_time()
